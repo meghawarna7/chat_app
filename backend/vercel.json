@@ -1,10 +1,8 @@
-
 {
   "version": 2,
   "functions": {
-  
-      "source": "backend/*.js",
-      "handler": "backend/*"
+   
+      "source": "backend/*.js"
     
   }
 }
