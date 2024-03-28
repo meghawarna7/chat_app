@@ -1,14 +1,10 @@
+
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "./index.js",
-        "use": "@vercel/node"
-      }
-      
-    ],
-    "routes": [
-      
-      { "src": "/.*", "dest": "/frontend/index.html" }
-    ]
+  "version": 2,
+  "functions": {
+  
+      "source": "backend/*.js",
+      "handler": "backend/*"
+    
   }
+}
